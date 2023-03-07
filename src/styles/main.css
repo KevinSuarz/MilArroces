@@ -211,7 +211,6 @@ video {
 .btn--2 {
     background-color: var(--second-color);
     color: var(--white-color);
-    box-shadow: 10px 10px 0 var(--black-color);
 }
 
 .inverted__black {
