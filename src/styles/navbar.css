@@ -1,8 +1,28 @@
 @import url(main.css);
+.header {
+    background: url()
+}
 .navbar {
-    background-color: var(--th);
-    box-shadow: 0px 10px 4px rgba(0, 0, 0, 0.25); green, blue, alpha);
+    background-color: var(--third-color-alpha);
     color: var(--white-color);
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
+    position: absolute;
+    width: 100%;
+}
+.logo {
+    width: 100%;
+
+}
+.navbar__text1 {    
+
+
+}
+.mb {
+    border: 2px solid blue;
+}
+.mr {
+    border: 1px solid red;
 }
