@@ -37,8 +37,6 @@
 
 .hora__linea {
     flex: 20 1 auto;
-    display: flex;
-    align-items: flex-end;
     border-bottom: 2px solid var(--second-color);
 }
 
