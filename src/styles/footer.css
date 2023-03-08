@@ -1,0 +1,75 @@
+@import url(main.css);
+
+.footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    background-image: url(../img/footer__bg.png);
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.footer__container {
+    width: 100%;
+    display: flex;
+    padding: 2rem;
+}
+
+.footer__horario {
+    flex: 4;        
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer__horas {
+    width: 100%;
+
+}
+
+.hora {
+    margin: 1rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hora__linea {
+    flex: 20 1 auto;
+    display: flex;
+    align-items: flex-end;
+    border-bottom: 2px solid var(--second-color);
+}
+
+.hora__h4{
+    text-align: right;
+}
+
+.hora h4 {
+    flex: 1 0 auto;
+    padding: 0 1rem;
+}
+
+.footer__mapa {
+    flex: 3;
+    padding: 5rem;
+}
+
+
+.footer__faq {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex: 2;
+    padding: 0 3rem;
+}
+
+.derechos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .2rem 5rem;
+    background-color: var(--third-color);
+    color: var(--white-color);
+}
