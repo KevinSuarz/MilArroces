@@ -5,22 +5,40 @@
 		<title>Navbar</title>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="initial-scale=1.0">
-        <link rel="stylesheet" href="../src/styles/navbar.css"/>
+                <link rel="stylesheet" href="../src/styles/navbar.css"/>
 	</head>
 	<body>
         <div class="header">
             <header>
                         <nav class="navbar mb">
-                                <a href="" class="logo mr" alt="logo"></a><img src="../src/img/logoBlanco.svg"/></li>
-                                <a href="" class="navbar--text1 mr">Inicio</a>
-                                <a href="" class="navbar--text2 mr">Carta</a>
-                                <a href="" class="navbar--text3 mr">Nosotros</a>
-                                <a href="" class="navbar--text4 mr">Reservas</a>
-                                <a href="" class="navbar--text5 mr">Blog</a>
-                                <a href="" class="navbar--text6 mr">Para llevar</a>
-                                <a href="" class="navbar--text7 mr">Contacto</a>
+                                <a href="#" class="logo img mr"><img src="../src/img/logoBlanco.svg"/></a>
+                                <a href="#" class="navbar__text mr">Inicio</a>
+                                <a href="#" class="navbar__text mr">Carta</a>
+                                <a href="#" class="navbar__text mr">Nosotros</a>
+                                <a href="#" class="navbar__text mr">Reservas</a>
+                                <a href="#" class="navbar__text mr">Blog</a>
+                                <div class="dropdown">
+                                        <span><p class="navbar__text mr">Para llevar</p></span>
+                                        <div class="dropdown-content">
+                                                <section>
+                                                        <div class="navbar__box1">
+                                                            <div class="navbar__box1__text mr">
+                                                                <a href="#">Glovo</a>
+                                                            </div>
+                                                            <div class="navbar__box1__text mr">
+                                                                <a href="#">Uber eats</a>
+                                                            </div>
+                                                            <div class="navbar__box1__text mr">
+                                                                <a href="#">Just eat</a>
+                                                            </div>
+                                                        </div>
+                                                </section>      
+                                        </div>
+                                </div>
+                                <a href="#" class="navbar__text mr">Contacto</a>
                         </nav>
             </header>
         </div>
+        
 	</body>
 </html>
