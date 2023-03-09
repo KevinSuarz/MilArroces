@@ -11,7 +11,7 @@
 @font-face {
     font-family: 'howlisans_one';
     src: url('../fonts/howli-sansone-webfont.woff2') format('woff2'),
-         url('../fonts/howli-sansone-webfont.woff') format('woff');
+         url('../') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -102,13 +102,13 @@ h2 {
 
 h3 {
     margin: 0;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-family: var(--font-howli);
 }
 
 h4 {
     margin: 0;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-family: var(--font-howli);
 }
 
@@ -246,6 +246,20 @@ video {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.flex {
+    display: flex;
+    gap: 10px;
+}
+
+.align {
+    align-items: center;
+    vertical-align: middle;
+}
+
+.fz {
+    font-size: 2rem;
 }
 
 
