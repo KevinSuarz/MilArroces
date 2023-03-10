@@ -3,18 +3,57 @@
 .galeria-inicio {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 300px);
+}
+
+.galeria-inicio__row {
+    display: flex;
 }
 
 .galeria-inicio__item {
+    display: inline-block;
+    width: 100px;
     position: relative;
+    flex: 1;
+    background-image: url(../img/galeria1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all .2s ease-in;
+    overflow: hidden;
+}
+
+.galeria-inicio__item:hover {
+    flex: 1.5;
+}
+
+.galeria-inicio__item:hover .blur-bg {
+    display: block
 }
 
 .blur-bg {
-    position: absolute;
     width: 100%;
     height: 100%;
-    padding: 2rem 5rem;
-    background-color: var(--black-alpha-color);
+    padding: 2rem 4rem;
+    background-color: var(--black-alpha-color-plus);
+}
+
+.galeria-inicio__title {
+    margin-bottom: 1rem;
+    text-align: center;
+    border-bottom: 2px solid var(--white-color);
+}
+
+.galeria-inicio__link {
+    display: flex;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+.galeria-inicio__precio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1;
+    margin-right: 2rem;
 }
