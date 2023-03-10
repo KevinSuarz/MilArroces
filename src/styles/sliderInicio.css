@@ -54,10 +54,19 @@
     0% {
         transform: translateX(0);
     }
-    30% {
+    22% {
+        transform: translateX(0);
+    }
+    28% {
         transform: translateX(-100%);
     }
-    60% {
+    72% {
+        transform: translateX(-100%);
+    }
+    78% {
+        transform: translateX(-200%);
+    }
+    100% {
         transform: translateX(-200%);
     }
 }
