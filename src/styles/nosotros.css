@@ -1,32 +1,33 @@
 @import url(main.css);
-    
-    
-    
-    body {
-        background-color: var(--first-color);
-    }
+
     .nosotros {
         width: 100%;
         display: flex;
         justify-content: space-around;
-        flex-wrap: wrap;
+        padding: 0 3rem;
     }
 
-        .nosotros__botonblog {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around; 
-        }
-        .nosotros__botonblog-img {
-            width: 500px;
-        }
-        .nosotros__texto {
-            width: 700px;
-            padding-top: 150px;
-        }
-            .nosotros__texto--h2 {
-                padding-bottom: 40px;
-            }
-        .nosotros__restaurante {
-            height: 900px;
-        }
+    .nosotros__botonblog {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around; 
+    }
+
+    .nosotros__botonblog-img {
+        width: 350px;
+    }
+
+    .nosotros__texto {
+        width: 700px;
+        padding: 4rem;
+    }
+
+    .linea__nosotros {
+        width: 60%;
+        border-bottom: 2px solid var(--second-color);
+        margin-bottom: 3rem;
+    }
+    
+    .nosotros__restaurante {
+        height: 550px;
+    }

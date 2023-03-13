@@ -1,0 +1,68 @@
+@import url(main.css);
+    .formularioinicio {
+        background-color: white;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 4rem 0;
+        position: relative;
+    }
+
+    .formularioinicio__texto {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        padding-left: 150px;
+    }
+
+    .hora__linea {
+        width: 60%;
+        margin-left: auto;
+    }
+
+    .formularioinicio__texto--linea {
+        width: 150px;
+    }
+
+    .formularioinicio__texto--h4 {
+        width: 80%;
+        margin: 2rem 0;
+    }
+
+    .formularioinicio__contenedor {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        margin: 0 0 4rem 0;
+    }
+
+    .formularioinicio__contenedor--cuadrado {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 50px;
+        background-color: var(--second-color);
+        width: 420px;
+        padding: 50px 30px;
+        border-radius: 10px;
+        box-shadow: 15px 15px 0 rgb(0, 0, 0, 100%);
+    }
+
+    .formularioinicio__contenedor--botones {
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
+    .formularioinicio__contenedor--campos {
+        flex-direction: column;
+    }
+
+    .formulario__boton {
+        margin: auto 0;
+    }
+
+    .formularioinicio__collage {
+        width: 30%;
+    }

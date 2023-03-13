@@ -47,15 +47,15 @@
 }
 
 .slide1 {
-    background-image: url(../img/bg-slide1.png);
+    background-image: url(../img/bg-slide-portada.jpg);
 }
 
 .slide2 {
-    background-image: url(../img/bg-slide2.jpg);
+    background-image: url(../img/bg-slide-carta.jpg);
 }
 
 .slide3 {
-    background-image: url(../img/bg-slide3.png);
+    background-image: url(../img/bg-slide-takeaway.jpg);
 }
 
 @keyframes slide {

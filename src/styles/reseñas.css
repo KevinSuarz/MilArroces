@@ -1,10 +1,10 @@
 @import url(main.css);
+
 /*Caja que engloba las 3 cajas*/
 .resenas__divmaster{
     display: flex;
     flex-wrap: wrap;
     margin: 3%;
-
 }
 /*Caja de principal de la reseña*/
 .resenas__box1{
