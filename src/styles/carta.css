@@ -1,0 +1,33 @@
+@import url(main.css);
+
+.platos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.platos__container {
+    width: 55%;
+    padding: 2rem;
+    background-color: var(--third-color);
+}
+
+.platos__container--claro {
+    background-color: var(--bg-color);
+}
+
+.platos__container--peque {
+    width: 45%;
+    padding-right: 7rem;
+}
+
+.platos__container--gran {
+    padding-left: 6rem;
+}
+
+.py {
+    padding-top: 3rem;
+}
+
+.pb {
+    margin-bottom: 2rem;
+}

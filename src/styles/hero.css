@@ -1,0 +1,25 @@
+@import url(main.css);
+
+
+.hero {
+    width: 100%;
+    height: 500px;
+    display: grid;
+    place-items: center;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.hero--carta {
+    background-image: url(../img/bg-recomendacion.jpg);
+}
+
+.hero--reservas {
+    background-image: url(../img/bg-recomendacion.jpg);
+}
+
+.hero--blog {
+    background-image: url(../img/bg-recomendacion.jpg);
+}
