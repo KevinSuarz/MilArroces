@@ -7,18 +7,72 @@
     
 
 }
+/*Caja global tarjeta--third color*/
 .blog__box1{
     width: 550px;
+    height: 850px;
     display: flex;
     flex-flow: column nowrap;
     background-color: var(--third-color);
-    padding: 35px;
+    padding: 25px;
+    margin: auto;
+    margin-bottom: 30px;
 }
+/*Caja global tarjeta--second color*/
+.blog__box2{
+    width: 550px;
+    height: 850px;
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: var(--second-color);
+    padding: 25px;
+    margin: auto;
+    margin-bottom: 30px
+}
+
 .blog__box1__foto{
+    width: 100%;
     display: flex;
     justify-content: center;
-    padding: px;
 }
+.blog__box1__titulo{
+    height: 150px;
+    border-bottom: 4px solid var(--second-color);
+}
+.blog__box2__titulo{
+    height: 150px;
+    border-bottom: 4px solid var(--third-color);
+}
+.blog__box1__box{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+}
+.blog__box1__box1, .blog__box1__box2, .blog__box1__box3, .blog__box1__box4{
+    display: flex;
+    color: var(--first-color);
+    background-color: var(--second-color);
+    width: 200px;
+    height: 26px;
+    margin-top: 15px;
+}
+.blog__box2__box1, .blog__box2__box2, .blog__box2__box3,.blog__box2__box4{
+    display: flex;
+    color: var(--first-color);
+    background-color: var(--third-color);
+    width: 200px;
+    height: 26px;
+    margin-top: 15px;
+}
+.blog__box1__carac{
+    height: 150px;
+    display: flex;
+    justify-content: flex-start;
+    color: var(--first-color);
+    padding-top: 10px;
+}
+
 /*Generales*/
 h2 {
    color: var(--first-color);
