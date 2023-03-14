@@ -1,0 +1,35 @@
+@import url(main.css);
+/*Caja global*/
+.blogboxmaster{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap ;
+    
+
+}
+.blog__box1{
+    width: 550px;
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: var(--third-color);
+    padding: 35px;
+}
+.blog__box1__foto{
+    display: flex;
+    justify-content: center;
+    padding: px;
+}
+/*Generales*/
+h2 {
+   color: var(--first-color);
+}
+
+.img{
+    object-fit: contain;
+}
+.mb {
+    border: 2px solid blue;
+}
+.mr {
+    border: 1px solid red;
+}

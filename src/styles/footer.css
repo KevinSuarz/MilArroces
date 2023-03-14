@@ -71,3 +71,9 @@
     background-color: var(--third-color);
     color: var(--white-color);
 }
+.mb {
+    border: 2px solid blue;
+}
+.mr {
+    border: 1px solid red;
+}
