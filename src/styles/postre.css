@@ -14,9 +14,11 @@ body{
     max-height: 350px;
 
 }
+/*Foto*/
 .postre__box1__foto{
     width: 413px;
 }
+/*Caja secundaria texto -- Título, descripcion, precio y alergenos*/
 .postre__box1__text{
     width: 413px;
     background-color: var(--second-color);
@@ -25,6 +27,7 @@ body{
     justify-content: center;
     align-items: center;
 }
+/*Titulo texto*/
 .postre__box1__text1{
     width: 350px;
     color: var(--third-color);
@@ -33,6 +36,7 @@ body{
     border-bottom: 2px solid white;
     padding-top: 20px;
 }
+/*Descripcion texto*/
 .postre__box1__text2{
     width: 320px;
     height: 300px;
@@ -41,6 +45,7 @@ body{
     justify-content: flex-start;
     align-items: flex-start;
 }
+/*Texto precio*/
 .postre__box1__text3{
     width: 350px;
     display: flex;
@@ -49,6 +54,7 @@ body{
     padding-top: 40px;
     padding-right: 11px;
 }
+/*Texto alergenos*/
 .postre__box1__text4{
     width: 120px;
     background-color: var(--third-color-alpha);
@@ -67,9 +73,11 @@ body{
     max-height: 350px;
 
 }
+/*Foto*/
 .postre__box2__foto{
     width: 413px;
 }
+/*Caja secundaria texto -- Título, descripcion, precio y alergenos*/
 .postre__box2__text{
     width: 413px;
     background-color: var(--third-color);
@@ -78,6 +86,7 @@ body{
     justify-content: center;
     align-items: center;
 }
+/*Titulo texto*/
 .postre__box2__text1{
     width: 350px;
     color: white;
@@ -86,6 +95,7 @@ body{
     border-bottom: 2px solid var(--second-color);
     padding-top: 20px;
 }
+/*Descripcion texto*/
 .postre__box2__text2{
     width: 320px;
     height: 300px;
@@ -95,6 +105,7 @@ body{
     align-items: flex-start;
     color: white;
 }
+/*Texto precio*/
 .postre__box2__text3{
     width: 350px;
     display: flex;
@@ -103,6 +114,7 @@ body{
     padding-top: 40px;
     padding-right: 11px;
 }
+/*Texto alergenos*/
 .postre__box2__text4{
     width: 120px;
     background-color: var(--second-color);
