@@ -1,0 +1,98 @@
+@import url(main.css);
+/*Caja global*/
+.blogboxmaster{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding: 30px;
+}
+/*Caja global tarjeta--third color*/
+.blog__box1{
+    min-width: 350px;
+    display: flex;
+    flex: 1 0 30%;
+    flex-flow: column nowrap;
+    background-color: var(--third-color);
+    padding: 25px;
+    overflow: hidden;
+}
+/*Caja global tarjeta--second color*/
+.blog__box2{
+    min-width: 350px;
+    display: flex;
+    flex: 1 0 30%;
+    flex-flow: column nowrap;
+    background-color: var(--second-color);
+    padding: 25px;
+    overflow: hidden;
+}
+/*Foto tarjeta*/
+.blog__box1__foto{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+/*Titulo receta--second-color*/
+.blog__box1__titulo{
+    height: 150px;
+    border-bottom: 4px solid var(--second-color);
+}
+/*Titulo receta--third-color*/
+.blog__box2__titulo{
+    height: 150px;
+    border-bottom: 4px solid var(--third-color);
+}
+/*Caja que engloba 4 cajas de caracteristicas*/
+.blog__box1__box{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+}
+/*4 cajas de caracteristicas--second-color*/
+.blog__box1__box1, .blog__box1__box2, .blog__box1__box3, .blog__box1__box4{
+    display: flex;
+    color: var(--first-color);
+    background-color: var(--second-color);
+    width: 200px;
+    height: 26px;
+    margin-top: 15px;
+    padding-left: 13px;
+}
+/*4 cajas de caracteristicas--third-color*/
+.blog__box2__box1, .blog__box2__box2, .blog__box2__box3,.blog__box2__box4{
+    display: flex;
+    color: var(--first-color);
+    background-color: var(--third-color);
+    width: 200px;
+    height: 26px;
+    margin-top: 15px;
+    padding-left: 13px;
+}
+/*Caja resumen receta*/
+.blog__box1__carac{
+    height: 150px;
+    display: flex;
+    justify-content: flex-start;
+    color: var(--first-color);
+    padding-top: 10px;
+}
+
+/*Generales*/
+h2 {
+   color: var(--first-color);
+}
+
+.img{
+    object-fit: cover;
+    width:100%;
+    height:100%;
+}
+.mb {
+    border: 2px solid blue;
+}
+.mr {
+    border: 1px solid red;
+}
