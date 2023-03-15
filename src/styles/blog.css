@@ -9,8 +9,9 @@
 }
 /*Caja global tarjeta--third color*/
 .blog__box1{
-    max-width: 550px;
+    max-width: 500px;
     max-height: 850px;
+    gap: 20px;
     display: flex;
     flex-flow: column nowrap;
     background-color: var(--third-color);
@@ -20,8 +21,9 @@
 }
 /*Caja global tarjeta--second color*/
 .blog__box2{
-    max-width: 550px;
+    max-width: 500px;
     max-height: 850px;
+    gap: 20px;
     display: flex;
     flex-flow: column nowrap;
     background-color: var(--second-color);
