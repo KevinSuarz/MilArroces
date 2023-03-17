@@ -3,33 +3,30 @@
 .blogboxmaster{
     width: 100%;
     display: flex;
-    flex-flow: row wrap ;
-    
-
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding: 30px;
 }
 /*Caja global tarjeta--third color*/
 .blog__box1{
-    max-width: 500px;
-    max-height: 850px;
-    gap: 20px;
+    min-width: 350px;
     display: flex;
+    flex: 1 0 30%;
     flex-flow: column nowrap;
     background-color: var(--third-color);
     padding: 25px;
-    margin: auto;
-    margin-bottom: 30px;
+    overflow: hidden;
 }
 /*Caja global tarjeta--second color*/
 .blog__box2{
-    max-width: 500px;
-    max-height: 850px;
-    gap: 20px;
+    min-width: 350px;
     display: flex;
+    flex: 1 0 30%;
     flex-flow: column nowrap;
     background-color: var(--second-color);
     padding: 25px;
-    margin: auto;
-    margin-bottom: 30px
+    overflow: hidden;
 }
 /*Foto tarjeta*/
 .blog__box1__foto{
