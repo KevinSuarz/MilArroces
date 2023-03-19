@@ -2,13 +2,221 @@
 
 
 .reservas {
-    width: 100%;
-    padding: 5rem;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  padding: 5rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .reservas img {
-    width: 500px;
-    margin: 0 auto;
+  width: 500px;
+  margin: 0 auto;
+}
+
+
+/* FORMULARIO */
+
+.reservas__form {
+  width: 80%;
+  margin: auto;
+  padding: 2rem;
+  background-color: var(--white-color);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.campo {
+  border-radius: 10px;
+  box-shadow: 4px 6px 6px rgba(0, 0, 0, 0.25);
+  padding: .5rem 1rem;
+  border: 1px solid #c2c2c2;
+}
+
+.reservas__head {
+  width: 90%;
+  border-bottom: 2px solid #b9b9b9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.reservas__head p {
+  width: 70%;
+  margin-bottom: 1rem;
+}
+
+.reservas__body {
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+}
+
+.reservas__body label {
+  font-weight: bold;
+}
+
+.reservas__fecha {
+  width: 50%;
+}
+
+.reservas__datos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  align-items: center;
+}
+
+.reservas__1 {
+  width: 100%;
+  display: flex;
+  margin: .5rem 0;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  margin: 0 2rem;
+}
+
+.reservas__personas {
+  max-height: 3rem;
+  align-self: flex-end;
+  margin-left: 2rem;
+}
+
+.requer {
+  width: 90%;
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  margin-left: 2rem;
+}
+
+.reservas__requerimientos {
+  width: 100%;
+  height: 5rem;
+  text-align: start;
+}
+
+.reservas__requerimientos::placeholder {
+  position: absolute;
+}
+
+.reservas__btn {
+  color: var(--black-color);
+  border: 1px solid var(--black-color);
+}
+
+
+/* FECHAS */
+
+.fecha__selecciones {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.seleccion {
+  display: flex;
+  gap: 5px;
+}
+
+.select {
+  width: 25px;
+  height: 25px;
+  border-radius: 5px;
+  display: grid;
+  place-items: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.seleccion1 {
+  background-color: yellow;
+  color: black;
+}
+
+.seleccion2 {
+  background-color: white;
+  color: black;
+}
+
+.seleccion2:hover {
+  background-color: yellow;
+}
+
+.b {
+  border: 1px solid black;
+}
+
+.seleccion3 {
+  background-color: red;
+  color: black;
+}
+
+.seleccion4 {
+  background-color: var(--third-color);
+  color: white;
+}
+
+
+
+.reservas__calendar {
+  background-color: #c2c2c2;
+  border-radius: 10px;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+
+.calendar__dia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.calendar__dia p {
+  font-weight: bold;
+}
+
+.select2 {
+  margin: 0 .5rem;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  padding: .5rem;
+}
+
+
+.reservas__hora {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.reservas__time {
+  background-color: var(--third-color);
+  color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  font-size: 2rem;
+  font-weight: bolder;
+  cursor: pointer;
+  transition: all .1s;
+}
+
+.reservas__time:hover {
+  background-color: yellow;
+  color: var(--third-color);
 }
