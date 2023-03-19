@@ -1,68 +1,91 @@
 @import url(main.css);
-    .formularioinicio {
-        background-color: white;
-        width: 100%;
-        display: flex;
-        justify-content: space-evenly;
-        padding: 4rem 0;
-        position: relative;
-    }
 
-    .formularioinicio__texto {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        align-items: flex-start;
-        padding-left: 150px;
-    }
+.formularioinicio {
+  background-color: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 4rem 0;
+  position: relative;
+}
 
-    .hora__linea {
-        width: 60%;
-        margin-left: auto;
-    }
+.formularioinicio__texto {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding-left: 150px;
+}
 
-    .formularioinicio__texto--linea {
-        width: 150px;
-    }
+.hora__linea {
+  width: 60%;
+  margin-left: auto;
+}
 
-    .formularioinicio__texto--h4 {
-        width: 80%;
-        margin: 2rem 0;
-    }
+.form__cont {
+  width: 50%;
+}
 
-    .formularioinicio__contenedor {
-        display: flex;
-        width: 100%;
-        justify-content: space-around;
-        margin: 0 0 4rem 0;
-    }
+.formulario-inicio__title {
+  width: 90%;
+  text-align: right;
+}
 
-    .formularioinicio__contenedor--cuadrado {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        gap: 50px;
-        background-color: var(--second-color);
-        width: 420px;
-        padding: 50px 30px;
-        border-radius: 10px;
-        box-shadow: 15px 15px 0 rgb(0, 0, 0, 100%);
-    }
+.form__online {
+  width: 30%;
+  margin: auto;
+}
 
-    .formularioinicio__contenedor--botones {
-        display: flex;
-        width: 100%;
-        justify-content: space-evenly;
-    }
+.formularioinicio__texto--linea {
+  width: 150px;
+}
 
-    .formularioinicio__contenedor--campos {
-        flex-direction: column;
-    }
+.formularioinicio__texto--h4 {
+  margin: 1rem 0 1rem 1rem;
+}
 
-    .formulario__boton {
-        margin: auto 0;
-    }
+.inline__title {
+  margin-bottom: 1rem;
+}
 
-    .formularioinicio__collage {
-        width: 30%;
-    }
+.form__campo {
+  border-radius: 10px;
+  padding: .5rem 1rem;
+}
+
+.formularioinicio__contenedor {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-top: 2rem;
+}
+
+.formularioinicio__contenedor--cuadrado {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 50px;
+  background-color: var(--second-color);
+  width: 420px;
+  padding: 50px 30px;
+  border-radius: 10px;
+  box-shadow: 15px 15px 0 rgb(0, 0, 0, 100%);
+}
+
+.formularioinicio__contenedor--botones {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.formularioinicio__contenedor--campos {
+  flex-direction: column;
+}
+
+.formulario__boton {
+  margin: auto 0;
+}
+
+.formularioinicio__collage {
+  width: 30%;
+}

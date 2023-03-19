@@ -1,11 +1,24 @@
 @import url(main.css);
 
 .galeria-inicio {
+  position: relative;
     width: 100%;
     padding-top: 5px;
     display: grid;
     grid-template-rows: repeat(2, 320px);
     position: relative;
+    padding-top: 200px;
+    background-color: var(--third-color-alpha);
+}
+
+.galeria__title {
+  border-bottom: 2px solid var(--second-color);
+}
+
+.galeria__info {
+  position: absolute;
+  top: 50px;
+  left:100px
 }
 
 .galeria-inicio__row {
@@ -60,7 +73,7 @@
 .blur-bg {
     width: 100%;
     height: 100%;
-    padding: 3rem 4rem 2rem 4rem;
+    padding: 1.8rem 4rem 2rem 4rem;
     background-color: var(--black-alpha-color-plus);
 }
 
@@ -68,6 +81,8 @@
     margin-bottom: 1rem;
     text-align: center;
     border-bottom: 2px solid var(--white-color);
+    font-family: var(--font-lasoka);
+    font-size: 3rem;
 }
 
 .galeria-inicio__link {

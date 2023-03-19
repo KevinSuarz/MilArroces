@@ -1,5 +1,12 @@
 @import url(main.css);
 
+.resenas {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /*Caja que engloba las 3 cajas*/
 .resenas__divmaster{
     display: flex;
