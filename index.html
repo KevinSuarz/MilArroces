@@ -7,6 +7,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
     <link rel="stylesheet" href="src/styles/main.css">
+    <link rel="stylesheet" href="src/styles/navbar.css">
     <link rel="stylesheet" href="src/styles/sliderInicio.css">
     <link rel="stylesheet" href="src/styles/nosotros.css">
     <link rel="stylesheet" href="src/styles/galeria.css">
@@ -19,15 +20,16 @@
 </head>
 <body>
 
-    <!-- AQUI DEBERIA IR EL NAVBAR -->
-
+    <!-- AQUI INICIA EL NAVBAR -->
     <header>
-      <a href="#" class="logo img"><img src="../src/img/logoBlanco.svg"/></a>
-      <nav class="navbar mb">
-        <a href="#" class="navbar__text">Inicio</a>
-        <a href="#" class="navbar__text">Carta</a>
-        <a href="#" class="navbar__text">Nosotros</a>
-        <a href="#" class="navbar__text">Reservas</a>
+      <a href="#" class="logo__header">
+        <img src="../src/img/logoBlanco.svg"/>
+      </a>
+      <nav class="navbar">
+        <a href="#" class="navbar__text active-page">Inicio</a>
+        <a href="pages/carta.html" class="navbar__text">Carta</a>
+        <a href="#nosotros" class="navbar__text">Nosotros</a>
+        <a href="pages/reserva.html" class="navbar__text">Reservas</a>
         <div class="modal1">
           <a href="#" class="navbar__text ws">Para llevar</a>
           <div class="navbar__text__modal1">
@@ -36,35 +38,51 @@
             <a>JUST EATS</a>
           </div>
         </div>           
-        <a href="#" class="navbar__text">Blog</a>
+        <a href="pages/blog.html" class="navbar__text">Blog</a>
         <div class="modal2">
           <a href="#" class="navbar__text navbar__text__contact">Contacto</a>
           <div class="navbar__box2">
-            <div class="navbar__box2__logo img">
+            <div class="navbar__box2__logo">
               <img src="../src/img/logoBlanco.svg"/>
             </div>
             <div class="navbar__box2__text">
-              <span class="material-symbols-outlined">smartphone</span>
-              <p class="font3">Llama ya</p>
-              <p class="font2">+34 945678934<br></p>
-              <p class="font2">+34 678432154</p>
+              <div class="sidebar__logo">
+                <span class="material-symbols-outlined">smartphone</span>
+                <p class="font3">Llama ya</p>
+              </div>
+              <div class="sidebar__info">
+                <p class="font2">+34 945678934<br></p>
+                <p class="font2">+34 678432154</p>
+              </div>
             </div>
             <div class="navbar__box2__text">
-              <span class="material-symbols-outlined">mail</span>
-              <p class="font3">Mensajes al correo</p>
-              <p class="font2">reservas@milyunarroces.com</p>
-              <p class="font2">soporte@milyunarroces.com</p>
-            </div>
-            <div class="navbar__box2__text">
-              <span class="material-symbols-outlined">location_on</span>
-              <p class="font3">Estamos en</p>
-              <p class="font2">Calle Dato, 32</p>
-              <p class="font2">01013, Vitoria Gasteiz</p>
+              <div class="sidebar__logo">
+                <span class="material-symbols-outlined">mail</span>
+                <p class="font3">Mensajes al correo</p>
+              </div>
               <div>
+                <p class="font2">reservas@milyunarroces.com</p>
+                <p class="font2">soporte@milyunarroces.com</p>
+              </div>
+            </div>
+            <div class="navbar__box2__text">
+              <div class="sidebar__logo">
+                <span class="material-symbols-outlined">location_on</span>
+                <p class="font3">Estamos en</p>
+              </div>
+              <div>
+                <p class="font2">Calle Dato, 32</p>
+                <p class="font2">01013, Vitoria Gasteiz</p>
+              </div>
+            </div>
+            <div class="navbar__box2__text">
+              <div class="sidebar__logo fechas__">
                 <p>MARTES - JUEVES</p>
                 <p>13:00 - 23:00</p><br>
+              </div>
+              <div class="sidebar__logo fechas__">
                 <p>VIERNES - DOMINGO</p>
-                <p>13-00 - 01:00</p>
+                <p>13:00 - 01:00</p><br>
               </div>
             </div>
             <div class="navbar__box2__logoredes">
@@ -104,7 +122,7 @@
 
 
     <!-- AQUI INICIA NOSOTROS -->
-    <section class="nosotros">
+    <section class="nosotros" id="nosotros">
         <div class="nosotros__botonblog">
             <img class="nosotros__botonblog-img" src="src/img/nosotos-paella.jpg">
             <a href="pages/blog.html" class="btn btn--2">BLOG</a>  
@@ -131,7 +149,7 @@
 
         <div class="galeria__info">
           <h2 class="galeria__title txtw"> Nuestros Mejores Platos y precios</h2>
-          <h5 class="txtw">selecciona el plato que mas te guste, descubre el precio y un poco sobre su historia</h5>
+          <h5 class="txtw">selecciona el plato que mas te guste, descubre el precio y un poco sobre su preparación</h5>
         </div>
         
 
@@ -428,7 +446,7 @@
                             <input class="form__campo" type="date" name="fecha"/>
                         </div>
                     </div>
-                    <a class="btn btn--mini" href="#">¡ENVIAR!</a>
+                    <a class="btn btn--mini" href="">¡ENVIAR!</a>
                 </div>
               </div>
               <div class="form__online">

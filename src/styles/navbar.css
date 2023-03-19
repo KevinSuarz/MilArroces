@@ -1,135 +1,193 @@
 @import url(main.css);
-.header {
-    background: url()
-}
 
 /*Menu principal Nav*/
+header {
+  z-index: 100;
+  width: 100%;
+  background-color: var(--third-color-alpha);
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: var(--third-color);
+  border-bottom: 3px solid var(--white-color);
+}
+
 .navbar {
-    background-color: var(--third-color-alpha);
-    color: var(--white-color);
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    align-content: center;
-    position: fixed;
-    width: 100%;
-    padding-right: 2%;
+  color: var(--white-color);
+  display: flex;
+  align-items: center;
+  background-color: var(--third-color);
 }
-.logo {
-    width: 23%;
-    display: flex;
-    justify-content: center;
-    align-self: center;  
+
+.logo__header {
+  height: 50px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
 }
-/*Interior de la ventana modal*/
-.navbar__box1{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: ;
+
+.navbar__text {
+  padding: 10px;
+  font-size: 24px;
+  padding: 0 20px;
+  font-family: var(--font-howli);
 }
-.navbar__box1__text{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 2%;
-    border-bottom: 6px solid white;
+
+.navbar__text__contact {
+  padding-right: 120px;
 }
-/*Flexbox nav*/
-.navbar__text {  
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
-    align-items: center;
-    font-size: 24px;
-    padding-left: 1%;  
-    padding-right: 1%;
+
+.modal1 {
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
 }
+
+.navbar__text__modal1 {
+  position: absolute;
+  top: -300%;
+  z-index: -1;
+  background-color: var(--third-color);
+  width: 249px;
+  transition: all 0.4s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0;
+  justify-content: space-between;
+  border-bottom: 3px solid var(--white-color);
+  border-right: 3px solid var(--white-color);
+  border-left: 3px solid var(--white-color);
+}
+
+.navbar__text__modal1 a {
+  font-size: 1.5rem;
+  padding: .5rem 0;
+  border-bottom: 3px solid var(--white-color);
+  width: 80%;
+  text-align: center;
+  font-family: var(--font-howli);
+  cursor: pointer;
+}
+
+.navbar__text__modal1 a:hover {
+  color: var(--second-color);
+  text-decoration: underline;
+}
+
+.modal1:hover .navbar__text__modal1 {
+  top: 100%;
+}
+
+
+.ws {
+  white-space: nowrap;
+  z-index: 2;
+
+}
+
+.modal2 {
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.navbar__box2 {
+  position: absolute;
+  top: 100%;
+  z-index: -1;
+  right: -300%;
+  padding: 10px 40px;
+  background-color: var(--third-color);
+  height: 100vh;
+  transition: all 0.4s;
+  border-bottom: 3px solid var(--white-color);
+  border-left: 3px solid var(--white-color);
+}
+
+.modal2:hover .navbar__box2 {
+  right: 0;
+}
+
+/*Cambio color menu nav*/
 .navbar__text:hover {
-    color: var(--second-color);
-    text-decoration: underline;
+  color: var(--second-color);
+  text-decoration: underline;
 }
-/*Menu desplegable--para llevar*/
-.dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: grey;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
-  }
- 
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-/*Menu despleglable--Contanto*/
-.navbar__box2{
-    
-    width: 100%;
-    padding: 20px;
-    background-color: var( --third-color);
+
+.active-page {
+  color: var(--second-color);
+  text-decoration: underline;
 }
-/*Logo principal*/
-.navbar__box2__logo{ 
-    display: flex;
-    justify-content: center;
-    padding-bottom: 30px;
-    border-bottom: 2px solid white;
-}
-/*Cuadros de texto*/
-.navbar__box2__text{
-    padding-bottom: 30px;
-    padding-top: 10px;
-    border-bottom: 2px solid white;
-    text-align: center;
-}
-/*Logos de redes sociales*/
-.navbar__box2__logoredes{
-    display: flex;
-    justify-content: flex-end;
-    background-color: var( --third-color);
-    padding-top: 30px;
-}
-.logoimg{
-    width: 40px;
-    display: flex;
-}
-.dropdown2 {
-    position: relative;
-    display: inline-block;
-}
-  
-.dropdown-content2 {
-    display: none;
-    position: absolute;
-    min-width: 160px;
-    padding: 12px 16px;
-}
-.dropdown2:hover .dropdown-content2 {
-    display: block;
+
+.logoimg {
+  width: 50px;
+  display: flex;
+  background-color: var(--third-color);
 }
 
 /*Genrerales*/
-.font1{
-    font-family: var(--font-lasoka);
+.font1 {
+  font-family: var(--font-lasoka);
 }
-.font2{
-    font-family: var(--font-howli);
+
+.font2 {
+  font-family: var(--font-howli);
+  font-size: 1.3rem;
 }
-.font3{
-    font-family: var(--font-alegreya);
-    font-style: italic;
-    font-size: 11px;
+
+.font3 {
+  font-family: var(--font-alegreya);
+  font-style: italic;
+  font-size: 20px;
 }
-.mb {
-    border: 2px solid blue;
+
+
+
+/*Logo principal*/
+.navbar__box2__logo {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  border-bottom: 2px solid white;
 }
-.mr {
-    border: 1px solid red;
+
+/*Cuadros de texto*/
+.navbar__box2__text {
+  padding: 20px 0;
+  border-bottom: 2px solid white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+/*Logos de redes sociales*/
+.navbar__box2__logoredes {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: var(--third-color);
+  padding-top: 10px;
+}
+
+.navbar__box2__text span {
+  color: white;
+}
+
+.sidebar__logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.fechas__ p {
+  font-size: 1.2rem;
+  font-family: var(--font-howli);
 }
