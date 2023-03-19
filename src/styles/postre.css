@@ -8,6 +8,18 @@ body{
     display: flex;
     flex-flow: row wrap;
 }
+
+
+
+.gapping {
+  width: 100%;
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+
+
+
 /*Caja1 etiqueta individual--Engloba foto postre y descripción*/
 .postre__box1{
     display: flex;
