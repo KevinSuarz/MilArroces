@@ -83,7 +83,7 @@
 
 /*Generales*/
 h2 {
-   color: var(--first-color);
+  color: var(--first-color);
 }
 
 .img{
@@ -91,9 +91,15 @@ h2 {
     width:100%;
     height:100%;
 }
-.mb {
-    border: 2px solid blue;
+
+.card-blog__title {
+  line-height: 1;
+  margin-top: .5rem;
 }
-.mr {
-    border: 1px solid red;
+
+.card-blog__text {
+  line-height: 1.3;
+  margin-top: .5rem;
+  font-size: 1.1rem;
+  font-weight: bold;
 }
